@@ -1,0 +1,16 @@
+.cent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cardss{
+  width: 200px;
+  height: 100px;
+ border-radius: 20px;
+
+}
+.p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -3,6 +3,92 @@
     align-items: center;
     justify-content: center;
 }
-.cards{
-    /* height: 200px; */
+*
+{
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.ppp{
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+a:hover { text-decoration: none }
+.book{
+    height: 100%;
+    width: 100%;
+}
+.feature-card {
+    width: 380px;
+    height: 450px;
+    margin: 15px auto;
+    background-position: center top;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 2px 7px #221a1a;
+}
+.feature-card-deatails {
+    position: absolute;
+    bottom: -228px;
+    left: 0;
+    width: 100%;
+    padding: 30px;
+    background: rgba(0, 0, 0, 0.6);
+    transition: 0.3s ease-in-out;
+    font-size: 15px;
+    color: rgba(136, 136, 136, 0);
+}
+
+.feature-card-tilte {
+    position: absolute;
+    left: 0;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    text-transform: uppercase;
+    transition: 0.3s ease-in-out;
+    padding: 20px;
+    background: rgb(255, 255, 255);
+}
+
+.feature-card-tilte h3 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #373737;
+}
+
+.feature-card:hover .feature-card-tilte {
+    bottom: -67px;
+}
+
+.feature-card-deatails i {
+    font-size: 35px;
+    color: #1d365c;
+}
+
+.feature-card-deatails p {
+    font-size: 20px;
+    color: #e6e6e4;
+    margin: 15px 0;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.feature-card-deatails a {
+    display: inline-block;
+    margin-top: 15px;
+    color: #1d365c;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.feature-card:hover .feature-card-deatails {
+    bottom: 0;
 }

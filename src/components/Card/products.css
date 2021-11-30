@@ -92,3 +92,6 @@ a:hover { text-decoration: none }
 .feature-card:hover .feature-card-deatails {
     bottom: 0;
 }
+.cl{
+    clear: both;
+}

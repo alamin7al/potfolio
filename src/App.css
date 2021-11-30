@@ -1,7 +1,16 @@
 .App {
   text-align: center;
 }
-
+*{
+  /* background-color:#282c34;
+  color: white; */
+}
+*{
+  box-sizing: border-box;
+  /* background-color: #282c34; */
+  /* color: whitesmoke; */
+  /* overflow: hidden; */
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

@@ -13,8 +13,14 @@ const Services = () => {
     return (
         <div class="timeline">
             <ul>
-                <li>
-                    <div class="right_content">
+                <li >
+                    <div
+                   data-aos="fade-right"
+                   data-aos-easing="ease-in-back"
+                   data-aos-delay="300"
+                   data-aos-offset="0"
+                    
+                    class="right_content">
                         <div className="text-center">
                         <img src={webdesign} className='w-25 rounded-1 text-center mb-3' alt="" />
 
@@ -28,7 +34,13 @@ const Services = () => {
                     </div>
                 </li>
                 <li>
-                    <div class="right_content">
+                    <div 
+                    data-aos="fade-left"
+                    data-aos-easing="ease-in-back"
+                    data-aos-delay="300"
+                    data-aos-offset="0"
+                    
+                    class="right_content ">
 
                         {/* <h2>Web Development</h2> */}
                         <div className="text-center">
@@ -43,7 +55,13 @@ const Services = () => {
                     </div>
                 </li>
                 <li>
-                    <div class="right_content">
+                    <div 
+                     data-aos="fade-left"
+                     data-aos-easing="ease-in-back"
+                     data-aos-delay="300"
+                     data-aos-offset="0"
+                    
+                    class="right_content">
                         <div className="text-center">
                         <img src={code} className='w-25 rounded-1 text-center mb-3' alt="" />
 
@@ -56,7 +74,11 @@ const Services = () => {
                     </div>
                 </li>
                 <li>
-                    <div class="right_content">
+                    <div 
+                     data-aos="fade-right"
+                     data-aos-easing="ease-in-back"
+                     data-aos-duration="3000"
+                    class="right_content">
                     <div className="text-center">
                         <img src={responsibe} className='w-25 rounded-1 text-center mb-3' alt="" />
 
@@ -70,7 +92,12 @@ const Services = () => {
                     </div>
                 </li>
                 <li>
-                    <div class="right_content">
+                    <div 
+                     data-aos="fade-left"
+                     data-aos-easing="ease-in-back"
+                     data-aos-delay="300"
+                     data-aos-duration="3000"
+                    class="right_content">
                     <div className="text-center">
                         <img src={bug} className='w-25 rounded-1 text-center mb-3' alt="" />
 
@@ -83,7 +110,12 @@ const Services = () => {
                     </div>
                 </li>
                 <li>
-                    <div class="right_content">
+                    <div 
+                     data-aos="fade-right"
+                     data-aos-easing="ease-in-back"
+                     data-aos-delay="300"
+                     data-aos-offset="300"
+                    class="right_content">
                         <div className="text-center">
                         <img src={app} className='w-25 rounded-1 text-center mb-3' alt="" />
 

@@ -1,16 +1,15 @@
 import React, { useState } from 'react';
-import { ButtonGroup, Button } from 'react-bootstrap';
 import {
     Link
 } from "react-router-dom";
-import './products.css'
 import './products.css'
 import imgone from '../../img/screencapture-doctors-portal-a4989-web-app-home-2021-11-28-23_57_52.png'
 import imgonee from '../../img/screencapture-lucid-mccarthy-1331fe-netlify-app-services-2021-11-28-23_55_05.png'
 import imgoneee from '../../img/screencapture-pedantic-euclid-175e8c-netlify-app-home-2021-11-28-23_53_47.png'
 import Category from './Category';
-import Detailspage from './Detailspage';
-import Services from './Services';
+//https://alamin7al.github.io/app-lab/
+// import Detailspage from './Detailspage';
+// import Services from './Services';
 const services = [
 
     {
@@ -20,7 +19,10 @@ const services = [
         server: 'https://github.com/alamin7al/assignment-12-server',
         web: "https://doctors-portal-a4989.web.app/explore",
         img: imgone,
-      
+        desc: 'hello',
+        details: ' A Fully Functionally Full Stack Web App Based On Mern'
+
+
 
     },
     {
@@ -28,9 +30,16 @@ const services = [
         name: "health",
         web: "https://lucid-mccarthy-1331fe.netlify.app/services",
         img: imgonee,
-        gits: 'https://github.com/alamin7al/heatthCare'
+        gits: 'https://github.com/alamin7al/heatthCare',
+        desc: 'hello',
+        tech: 'Html,Css,Bootstrap,React Js',
+        details: "A FullyJavascript and React Js Site People Find Out For Best Doctor Should For need"
+
 
     },
+
+
+
     {
         id: 3,
         name: "travel",
@@ -38,9 +47,12 @@ const services = [
         gits: 'https://github.com/alamin7al/assignment-11-reactjs',
         web: "https://pedantic-euclid-175e8c.netlify.app/home",
         img: imgoneee,
-       
+        desc: 'hello',
+        tech: 'Reactjs,Nodejs,Node Express,Mongodb,React Bootstrap,Heroku',
+        details: 'A Fully Functionally Travel Booking Site Using Mern Stack'
+
     },
-    
+
 ]
 const Product = () => {
     const [website, setWebsite] = useState(services)
@@ -54,50 +66,63 @@ const Product = () => {
     }
     return (
 
-        <div className='pp '>
-            <div className=" container p h-100  text-center my-5 ">
-                <div className="row ">
+        <>
+            <div className="  p h-100  text-center my-5 ">
+                <div className="row ms-2">
                     <Category filter={filter} />
-                    <Detailspage service={website} />
+                    {/* <Detailspage service={website} /> */}
                     {
                         website.map(service =>
-                            <div className="col-lg-6">
+                            <div className="col-md-6 col-lg-4  ">
 
-                          
-                            <div class="feature-card ">
-                                <div class="feature-card-tilte col-lg-4">
-                                    <h3>
 
-                                    </h3>
-                                    <div
+                                <div data-aos="fade-right"
+                              data-aos-offset="300"
+                              data-aos-easing="ease-in-sine"
+                                
+                                class="feature-card ">
+                                    <div class="feature-card-tilte ">
+                                        <h3>
 
-                                        style={{ backgroundRepeat: 'no-repeat', backgroundSize: 'cover', height: 350, width: '100%', backgroundImage: `url(${service.img})` }}></div>
-                                    <p className=''>{service.name}</p>
+                                        </h3>
+                                        <div
 
-                                    <div className='mb-2'>
+                                            style={{ backgroundRepeat: 'no-repeat', backgroundSize: 'cover', height: 350, width: '100%', backgroundImage: `url(${service.img})` }}></div>
+                                        <p className=''>{service.name}</p>
 
-                                        <button type="button" class="btn btn-dark me-2 btn-sm">Server Repo</button>
-                                        <button type="button" class="btn btn-dark me-2 btn-sm">Client Repo</button>
-                                        <button type="button" class="btn btn-dark me-2 btn-sm">Live Site</button>
+                                        <div className='mb-1'>
+
+                                            <button type="button" class="btn btn-dark  btn-sm">Server Repo</button>
+                                            <button type="button" class="btn btn-dark  btn-sm">Client Repo</button>
+                                            <button type="button" class="btn btn-dark  btn-sm">Live Site</button>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="feature-card-deatails">
+                                        <i class="fa fa-bank"></i>
+                                        {service.name}
+                                        <p>
+                                            {service.details}
+                                        </p>
+                                        <p>
+                                        </p>
+                                        <div className=''>
+
+                                            <a target='blank' className='btn btn-dark btn-bg me-2 text-white' href={service?.gits}> Client Site</a>
+                                            <a target='blank' className='btn btn-dark btn-bg me-2 text-white' href={service?.server}> Server Site</a>
+                                            <a target='blank' className='btn btn-dark btn-bg me-2 text-white' href={service?.web}> Live Site</a>
+
+                                        </div>
+
+
+
+                                        {/* <Link  to={`/details/${service?.id}`}> <button className='btn btn-primary'>Details</button>  </Link> */}
+
+
 
                                     </div>
                                 </div>
-
-                                <div class="feature-card-deatails">
-                                    <i class="fa fa-bank"></i>
-                                    {service.name}
-                                    <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit</p>
-                                    <div className=''>
-
-                                    <a target='blank' className='btn btn-dark btn-sm me-2 text-white' href={service?.gits}> Client Site</a>
-                                    <a target='blank' className='btn btn-dark btn-sm me-2 text-white' href={service?.server}> Server Site</a>
-                                    <a target='blank' className='btn btn-dark btn-sm me-2 text-white' href={service?.web}> Live Site</a>
-
-                                    </div>
-                                    {/* <Link disabled="disabled" to={`/details/${service?.id}`}> <button disabled="disabled" className='btn btn-primary'>Details</button>  </Link> */}
-
-                                </div>
-                            </div>
                             </div>
                         )
                     }
@@ -105,7 +130,8 @@ const Product = () => {
 
                 </div>
             </div>
-        </div>
+            <div className='cl'> </div>
+        </>
     );
 };
 

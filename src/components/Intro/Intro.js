@@ -11,22 +11,16 @@ const Intro = () => {
     <div className="i">
       <div className="i-left">
         <div className="i-left-wrapper">
-          <h2 className="i-intro">Hello, My name is</h2>
-          <h1 className="i-name">Al Amin</h1>
+          <h2 className="i-intro fs-1">Hi There !</h2>
+          <h1 className="i-name ">I am Al Amin</h1>
           <div className="i-title">
             <div className="i-title-wrapper">
-              <div className="i-title-item">Web Developer</div>
               <div className="i-title-item">UI/UX Designer</div>
-              <div className="i-title-item">Photographer</div>
-              <div className="i-title-item">Writer</div>
-              <div className="i-title-item">Content Creator</div>
+              <div className="i-title-item">MERN Stack Developer</div>
+             
             </div>
           </div>
-          <p className="i-desc">
-            I design and develop services for customers of all sizes,
-            specializing in creating stylish, modern websites, web services and
-            online stores.
-          </p>
+         
           <a className='btn btn-outline-primary' href="https://drive.google.com/uc?export=download&id=1f-HzJLSyEE5MXhefVsYVq21NpyqiID37">Download Resume</a>
 
           <div className="mt-5 h-25">
@@ -56,6 +50,7 @@ const Intro = () => {
         <div className="i-bg"></div>
         <img src={img} alt="" className="i-img" />
       </div>
+      <div className='clear'></div>
     </div >
   );
 };

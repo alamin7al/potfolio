@@ -1,0 +1,18 @@
+.h{
+    height: 350px;
+    width: 100%;
+}
+.details{
+    position: relative;
+}
+.detailstt{
+    position: absolute;
+    height: 70vh;
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+}
+/* .y{
+    align-items: center;
+    justify-content: center;
+} */

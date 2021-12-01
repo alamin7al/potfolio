@@ -1,9 +1,6 @@
 .i {
   display: flex;
   height: 100vh;
-  /* background-color: #85dcb8;
-   */
-
 }
 
 .i-left {
@@ -36,13 +33,13 @@
 }
 
 .i-title {
-  height: 50px;
+  height: 40px;
   overflow: hidden;
 }
 
 .i-title-wrapper {
   height: 100%;
-  animation: move 10s ease-in-out infinite alternate;
+  animation: move 2s ease-in-out infinite alternate;
 }
 
 @keyframes move {
@@ -111,4 +108,7 @@
     display: none;
   }
   
+}
+.hello{
+  /* background-color: red; */
 }

@@ -1,4 +1,6 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faFacebook, faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons"
 
 import './About.css'
 import imgone from '../../img/Screenshot_2021-11-28-22-43-47-45-removebg-preview.png'
@@ -7,8 +9,12 @@ import imgone from '../../img/Screenshot_2021-11-28-22-43-47-45-removebg-preview
 const About = () => {
   return (
 
-    <div id='about' className="a">
-      <div className="a-left">
+    <div id='about' className="a  fc">
+      <div
+       data-aos="zoom-in"
+       data-aos-easing="linear"
+       data-aos-duration="1500"
+      className="a-left ">
         <div className="a-card bg"></div>
         <div className="a-card">
           <img
@@ -18,28 +24,55 @@ const About = () => {
           />
         </div>
       </div>
-      <div className="a-right">
-        <h1 className="a-title">About Me</h1>
-        <p className="a-sub">
-        I'm a passionate web designer and developer.I believe in hard work.I am doing my work honestly.I like to learn different things and want to build a foundation of my knowledge
-        </p>
-        <p className="a-desc">
-        I design and develop services for customers of all sizes,
-            specializing in creating stylish, modern websites, web services and
-            online stores.
-        </p>
+
+      <div
+      
+      data-aos="zoom-out-down"
+      data-aos-easing="linear"
+      data-aos-duration="1o00"
+      
+      className="a-right">
+        <h1 className="a-title text-success mt-4">About Me</h1>
         <div className="a-award">
-          
+
           <div className="a-award-texts">
-            <h4 className="a-award-title">Name: Al Amin</h4>
-            <h4 className="a-award-title">age: 20</h4>
-            <h4 className="a-award-title">Qualification : Bachelor of Social Science (BSS)</h4>
-            <h4 className="a-award-title">post : Jr. MERN Stack Developer</h4>
-            <h4 className="a-award-title">language : Bangla And English</h4>
+            <h4 className="a-award-title"> <small className='text-success fw-normal fw-italic fs-3'>Name </small> Al Amin</h4>
+            <h4 className="a-award-title"> <small className='text-success fw-normal fw-italic fs-3'>age-</small> 20</h4>
+            <h4 className="a-award-title"> <small className='text-success fw-normal fw-italic fs-3'>Qualification -</small> Bachelor of Social Science (BSS)</h4>
+            <h4 className="a-award-title"> <small className='text-success fw-normal fw-italic fs-3'>post :</small>  MERN Stack Developer</h4>
+            <h4 className="a-award-title"> <small className='text-success fw-normal fw-italic fs-3'>language -</small> Bangla And English</h4>
             <p className="a-award-desc">
-              
+
             </p>
           </div>
+        </div>
+        <p className="a-sub">
+          I'm a passionate web designer and developer.I believe in hard work.I am doing my work honestly.I like to learn different things and want to build a foundation of my knowledge
+        </p>
+        <p className="a-desc">
+          I design and develop services for customers of all sizes,
+          specializing in creating stylish, modern websites, web services and
+          online stores.
+        </p>
+        <div className="my-3 ">
+
+          <a href="https://web.facebook.com/profile.php?id=100033885724486" target='_blank'>
+            <FontAwesomeIcon className='fs-1 ms-3' icon={faFacebook}>        </FontAwesomeIcon>
+          </a>
+
+
+          <a href="https://github.com/alamin7al" target='_blank'>
+
+            <FontAwesomeIcon className='fs-1 ms-3' icon={faGithub}>    </FontAwesomeIcon>
+
+          </a>
+
+
+
+          <a href="https://www.linkedin.com/in/alaminal/" target='_blank'>
+            <FontAwesomeIcon className='fs-1 ms-3' icon={faLinkedin}> </FontAwesomeIcon>
+          </a>
+
         </div>
       </div>
     </div>

@@ -95,22 +95,28 @@ const Skills = () => {
     AOS.init();
     return (
         <div id='skillss' className='skills my-5 text-center '>
-            <h4 className=' m-5'> MY Skills</h4>
+            <h4 className=' my-5 fs-2 text-success text-uppercase'> MY Skills</h4>
             <div className="container ">
                 <div className="row ">
 
                     {
                         icons.map(icon =>
-                            <div  className='col-lg-3 col-md-3 col-sm-4  allcard  mb-5 cent '>
+                            <div  className='col-lg-3 col-md-3 col-sm-4    mb-5 cent '>
 
-                                <Card  style={{ width: '18rem' }} className='cardss h-100 w-100 text-center'>
+                                <Card 
+                                
+                                data-aos="flip-left"
+                                // data-aos-easing="ease-out-cubic"
+                                data-aos-duration="3000"
+                                
+                                style={{ width: '18rem' }} className='cardss h-100 w-100 text-center'>
                                
                                     <div className="text-center mt-2 pp">
                                         <Card.Img variant="top" src={icon.img} className='h-100 w-50 ' />
 
                                     </div>
                                     <Card.Body className='text-center p'>
-                                        <Card.Title>  {icon.name}</Card.Title>
+                                        <Card.Title className='text-success fw-bold'>  {icon.name}</Card.Title>
 
                                     </Card.Body>
                                 </Card>

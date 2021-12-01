@@ -69,6 +69,8 @@ const Product = () => {
         <>
             <div className=" container   text-center my-5 ">
                 <div className="row s  ">
+                    <h2 className='my-2 text-success fs-1 text-uppercase'>My Projects</h2>
+                    <hr className='project-hr text-success' />
                     <Category filter={filter} />
                     {/* <Detailspage service={website} /> */}
                     {
@@ -77,8 +79,10 @@ const Product = () => {
 
 
                                 <div 
-                                
-                                class="feature-card ">
+                                 data-aos="zoom-in-up"
+                                 // data-aos-anchor-placement="bottom-bottom"
+                  data-aos-duration="2000"
+                                class="feature-card border border-success  border-1 rounded-3">
                                     <div class="feature-card-tilte ">
                                         {/* <h3>
 

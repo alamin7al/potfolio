@@ -95,3 +95,11 @@ a:hover { text-decoration: none }
 .cl{
     clear: both;
 }
+.project-hr{
+    /* height: 60px; */
+    /* color: red; */
+    /* background-color: rgb(16, 212, 25);/ */
+    /* font-weight: 900; */
+    padding: 1px;
+    
+}

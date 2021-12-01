@@ -6,7 +6,6 @@
 .c-bg {
   width: 20px;
   height: 100%;
-  background-color: #59b256;
   position: absolute;
 }
 
@@ -79,7 +78,10 @@ button {
   font-weight: 500;
   cursor: pointer;
 }
-
+.b{
+  border: 1px solid #59b256;
+  margin: auto;
+}
 @media screen and (max-width: 480px) {
   .c-wrapper {
     flex-direction: column;
@@ -115,4 +117,7 @@ button {
   button {
     margin-top: 10px;
   }
+}
+.fc{
+  /* background-color: red; */
 }

@@ -11,9 +11,9 @@ const Introhome = () => {
         <div>
             <Intro/>
             <About/>
-            <Skills/>
+            {/* <Skills/> */}
             <Product/>
-           <Services/>
+           {/* <Services/> */}
             <Contacts/>
             
         </div>

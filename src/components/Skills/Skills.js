@@ -103,7 +103,7 @@ const Skills = () => {
                         icons.map(icon =>
                             <div  className='col-lg-2 col-md-3 col-sm-4  allcard  mb-5 cent '>
 
-                                <Card data-aos='zoom-in'  data-aos-anchor-placement="center-bootom" style={{ width: '18rem' }} className='cardss h-100 w-100 text-center'>
+                                <Card  style={{ width: '18rem' }} className='cardss h-100 w-100 text-center'>
                                
                                     <div className="text-center mt-2 pp">
                                         <Card.Img variant="top" src={icon.img} className='h-100 w-50 ' />

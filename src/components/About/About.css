@@ -31,10 +31,7 @@
   position: relative;
   overflow: hidden;
 }
-.horizontal{
-  width: 100vh;
-  
-}
+
 .a-img {
   width: 100%;
   height: 100%;
@@ -46,15 +43,9 @@
   height: 120px;
   border-radius: 20px;
 }
-.me{
-  font-size: 60px;
-color: royalblue;
-}
-.a-title{
-  text-align: center;
-  font-size: 50px;
 
-
+.a-title {
+  font-weight: 400;
 }
 
 .a-sub {
@@ -105,10 +96,3 @@ color: royalblue;
       padding: 20px;
     }
 }
-
-
-
-
-
-
-

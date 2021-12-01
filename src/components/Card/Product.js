@@ -67,18 +67,16 @@ const Product = () => {
     return (
 
         <>
-            <div className="  p h-100  text-center my-5 ">
-                <div className="row ms-2">
+            <div className="  w-100   text-center my-5 ">
+                <div className="row s w-100 ">
                     <Category filter={filter} />
                     {/* <Detailspage service={website} /> */}
                     {
                         website.map(service =>
-                            <div className="col-md-6 col-lg-4  ">
+                            <div className="col-md-6 col-lg-4   ">
 
 
-                                <div data-aos="fade-right"
-                              data-aos-offset="300"
-                              data-aos-easing="ease-in-sine"
+                                <div 
                                 
                                 class="feature-card ">
                                     <div class="feature-card-tilte ">
@@ -87,7 +85,7 @@ const Product = () => {
                                         </h3>
                                         <div
 
-                                            style={{ backgroundRepeat: 'no-repeat', backgroundSize: 'cover', height: 350, width: '100%', backgroundImage: `url(${service.img})` }}></div>
+                                            style={{ backgroundRepeat: 'no-repeat', backgroundSize: 'cover', height: 350, backgroundImage: `url(${service.img})` }}></div>
                                         <p className=''>{service.name}</p>
 
                                         <div className='mb-1'>
@@ -109,9 +107,9 @@ const Product = () => {
                                         </p>
                                         <div className=''>
 
-                                            <a target='blank' className='btn btn-dark btn-bg me-2 text-white' href={service?.gits}> Client Site</a>
-                                            <a target='blank' className='btn btn-dark btn-bg me-2 text-white' href={service?.server}> Server Site</a>
-                                            <a target='blank' className='btn btn-dark btn-bg me-2 text-white' href={service?.web}> Live Site</a>
+                                            <a target='blank' className='btn btn-dark btn-bg  text-white' href={service?.gits}> Client Site</a>
+                                            <a target='blank' className='btn btn-dark btn-bg mx-2 text-white' href={service?.server}> Server Site</a>
+                                            <a target='blank' className='btn btn-dark btn-bg  text-white' href={service?.web}> Live Site</a>
 
                                         </div>
 
@@ -129,8 +127,9 @@ const Product = () => {
 
 
                 </div>
-            </div>
             <div className='cl'> </div>
+
+            </div>
         </>
     );
 };

@@ -101,7 +101,7 @@ const Skills = () => {
 
                     {
                         icons.map(icon =>
-                            <div  className='col-lg-2 col-md-3 col-sm-4  allcard  mb-5 cent '>
+                            <div  className='col-lg-3 col-md-3 col-sm-4  allcard  mb-5 cent '>
 
                                 <Card  style={{ width: '18rem' }} className='cardss h-100 w-100 text-center'>
                                

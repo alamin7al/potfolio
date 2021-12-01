@@ -8,7 +8,7 @@ import imgonee from '../../img/screencapture-lucid-mccarthy-1331fe-netlify-app-s
 import imgoneee from '../../img/screencapture-pedantic-euclid-175e8c-netlify-app-home-2021-11-28-23_53_47.png'
 import Category from './Category';
 //https://alamin7al.github.io/app-lab/
-// import Detailspage from './Detailspage';
+import Detailspage from './Detailspage';
 // import Services from './Services';
 const services = [
 
@@ -67,22 +67,22 @@ const Product = () => {
     return (
 
         <>
-            <div className="  w-100   text-center my-5 ">
-                <div className="row s w-100 ">
+            <div className=" container   text-center my-5 ">
+                <div className="row s  ">
                     <Category filter={filter} />
                     {/* <Detailspage service={website} /> */}
                     {
                         website.map(service =>
-                            <div className="col-md-6 col-lg-4   ">
+                            <div className="col-md-6  col-lg-4   ">
 
 
                                 <div 
                                 
                                 class="feature-card ">
                                     <div class="feature-card-tilte ">
-                                        <h3>
+                                        {/* <h3>
 
-                                        </h3>
+                                        </h3> */}
                                         <div
 
                                             style={{ backgroundRepeat: 'no-repeat', backgroundSize: 'cover', height: 350, backgroundImage: `url(${service.img})` }}></div>

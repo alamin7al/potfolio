@@ -1,5 +1,6 @@
 import React from 'react';
 import About from '../About/About';
+// import Detailspage from '../Card/Detailspage';
 import Product from '../Card/Product';
 import Services from '../Card/Services';
 import Contacts from '../Contact/Contacts';
@@ -11,11 +12,11 @@ const Introhome = () => {
         <div>
             <Intro/>
             <About/>
-            {/* <Skills/> */}
+            <Skills/>
             <Product/>
-           {/* <Services/> */}
+           <Services/>
             <Contacts/>
-            
+            {/* <Detailspage/> */}
         </div>
     );
 };

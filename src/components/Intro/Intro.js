@@ -12,8 +12,9 @@ const Intro = () => {
     <div className="i">
       <div className="i-left">
         <div className="i-left-wrapper">
-          <h2 className="i-intro">Hello, My name is</h2>
-          <h1 className="i-name">John Burton</h1>
+          <h2 className="i-intro">HI THERE !
+          </h2>
+          <h1 className="i-name">I'M  Al Amin</h1>
           <div className="i-title">
             <div className="i-title-wrapper">
               <div className="i-title-item">Web Developer</div>
@@ -24,13 +25,11 @@ const Intro = () => {
             </div>
           </div>
           <p className="i-desc">
-            I design and develop services for customers of all sizes,
-            specializing in creating stylish, modern websites, web services and
-            online stores.
+         
           </p>
           <a className='btn btn-outline-primary' href="https://drive.google.com/uc?export=download&id=1f-HzJLSyEE5MXhefVsYVq21NpyqiID37">Download Resume</a>
 
-          <div className="">
+          <div className="mt-2">
 
             <a href="https://web.facebook.com/profile.php?id=100033885724486" target='_blank'>
               <FontAwesomeIcon className='fs-1 ' icon={faFacebook}>        </FontAwesomeIcon>

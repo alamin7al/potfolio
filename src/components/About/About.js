@@ -1,4 +1,5 @@
 import React from 'react';
+
 import './About.css'
 import imgone from '../../img/Screenshot_2021-11-28-22-43-47-45-removebg-preview.png'
 
@@ -6,7 +7,7 @@ import imgone from '../../img/Screenshot_2021-11-28-22-43-47-45-removebg-preview
 const About = () => {
   return (
 
-    <div className="a">
+    <div id='about' className="a">
       <div className="a-left">
         <div className="a-card bg"></div>
         <div className="a-card">
@@ -20,22 +21,23 @@ const About = () => {
       <div className="a-right">
         <h1 className="a-title">About Me</h1>
         <p className="a-sub">
-          It is a long established fact that a reader will be distracted by the
-          readable content.
+        I'm a passionate web designer and developer.I believe in hard work.I am doing my work honestly.I like to learn different things and want to build a foundation of my knowledge
         </p>
         <p className="a-desc">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat duis aute irure dolor in reprehende.
+        I design and develop services for customers of all sizes,
+            specializing in creating stylish, modern websites, web services and
+            online stores.
         </p>
         <div className="a-award">
           
           <div className="a-award-texts">
-            <h4 className="a-award-title">International Design Awards 2021</h4>
+            <h4 className="a-award-title">Name: Al Amin</h4>
+            <h4 className="a-award-title">age: 20</h4>
+            <h4 className="a-award-title">Qualification : Bachelor of Social Science (BSS)</h4>
+            <h4 className="a-award-title">post : Jr. MERN Stack Developer</h4>
+            <h4 className="a-award-title">language : Bangla And English</h4>
             <p className="a-award-desc">
-              Nemo enim ipsam voluptatem quia voluptas sit aspernatur autodit
-              and fugit.
+              
             </p>
           </div>
         </div>

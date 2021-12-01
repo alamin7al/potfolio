@@ -61,46 +61,50 @@ const Detailspage = () => {
     console.log(filtt);
     return (
 
-<>
-        <div className="container d-flex bg-primary " id='detailstt'>
+        <>
+            <div className="container d-flex bg-primary " id='detailstt'>
 
-            <div className="row bg-danger ">
-
-                {
-                    filtt.map(final =>
-
-                        <Carousel className='bg-danger'>
-                            <Carousel.Item className=''>
-
-                                <Card style={{ width: '18rem' }}>
-                                    <Card.Img variant="top" src={final?.cy1} className='h' />
-
-                                </Card>
-
-                            </Carousel.Item>
-                            <Carousel.Item>
-                                <Card style={{ width: '18rem' }}>
-                                    <Card.Img variant="top" src={final?.cy2} className='h' />
-
-                                </Card>
-
-                            </Carousel.Item>
-                            <Carousel.Item>
-                                <Card style={{ width: '18rem' }}>
-                                    <Card.Img variant="top" src={final?.cy3} className='h' />
-
-                                </Card>
+                <div className="row bg-danger ">
+                    <div className="col-md-6">
+                        {
+                            filtt.map(final =>
 
 
-                            </Carousel.Item>
-                        </Carousel>
-                    )
-                }
+
+                                <Carousel className='bg-danger'>
+                                    <Carousel.Item className=''>
+
+                                        <Card style={{ width: '18rem' }}>
+                                            <Card.Img variant="top" src={final?.cy1} className='h' />
+
+                                        </Card>
+
+                                    </Carousel.Item>
+                                    <Carousel.Item>
+                                        <Card style={{ width: '18rem' }}>
+                                            <Card.Img variant="top" src={final?.cy2} className='h' />
+
+                                        </Card>
+
+                                    </Carousel.Item>
+                                    <Carousel.Item>
+                                        <Card style={{ width: '18rem' }}>
+                                            <Card.Img variant="top" src={final?.cy3} className='h' />
+
+                                        </Card>
+
+
+                                    </Carousel.Item>
+                                </Carousel>
+
+                            )
+                        }
+
+                    </div>
+                </div>
+
 
             </div>
-
-
-        </div>
         </>
     );
 };

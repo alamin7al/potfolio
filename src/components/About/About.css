@@ -10,7 +10,7 @@
   align-items: center;
   justify-content: center;
   position: relative;
-  height: 100vh;
+  height: 100%;
 }
 
 .a-right {
@@ -50,15 +50,10 @@
 
 .a-sub {
   margin: 20px 0px;
-  font-weight: 400;
-  text-transform: capitalize;
-  font-size: large;
 }
 
 .a-desc{
-    font-weight: 400;
-    text-transform: capitalize;
-    font-size: large;
+    font-weight: 300;
 }
 
 .a-award{
@@ -69,13 +64,12 @@
 }
 
 .a-award-texts{
-    width: 100%;
+    width: 70%;
 }
 
 .a-award-title{
     font-weight: bold;
     color: #555;
-    font-size: 20px;
     margin-bottom: 10px;
 }
 
@@ -101,7 +95,4 @@
     .a-right{
       padding: 20px;
     }
-}
-.fc{
-  /* background-color: red; */
 }

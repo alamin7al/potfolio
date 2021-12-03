@@ -16,33 +16,33 @@ const Services = () => {
             <h1 className='text-success my-4 text-center'>MY SERVICES</h1>
             <div className="row ">
                 <div className="col-md-6 col-lg-4 ">
-                   <div className="">
-                   <Card
-                   
-                   data-aos="flip-left"
-    //  data-aos-easing="ease-out-cubic"
-     data-aos-duration="3000"
-                   style={{ width: '18rem' }} className='mx-auto mb-2 hoves border border-success  border-1 rounded-3 shadow p-3 mb-5 bg-body rounded'>
-                        <div className="mt-2 w-25 h-25 mx-auto">
-                            <Card.Img variant="top" src={webdesign} className='' />
+                    <div className="">
+                        <Card
 
-                        </div>
-                        <Card.Body>
-                            <Card.Title className='text-success fw-bold'>CREATIVE DESIGN</Card.Title>
-                            <Card.Text className='text-capitalize'>
-                                In today’s digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user’s first impression relates to web design
-                            </Card.Text>
-                        </Card.Body>
-                    </Card>
-                   </div>
+                            data-aos="flip-left"
+                            //  data-aos-easing="ease-out-cubic"
+                            data-aos-duration="3000"
+                            style={{ width: '18rem' }} className='mx-auto mb-2 hoves border border-success  border-1 rounded-3 shadow p-3 mb-5 bg-body rounded'>
+                            <div className="mt-2 w-25 h-25 mx-auto">
+                                <Card.Img variant="top" src={webdesign} className='' />
+
+                            </div>
+                            <Card.Body>
+                                <Card.Title className='text-success fw-bold'>CREATIVE DESIGN</Card.Title>
+                                <Card.Text className='text-capitalize'>
+                                    In today’s digital world, your website is the first interaction consumers have with your business. That's why almost 95 percent of a user’s first impression relates to web design
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
+                    </div>
                 </div>
                 <div className="col-md-6 col-lg-4">
-                    <Card 
-                    data-aos="fade-up"
-                    // data-aos-anchor-placement="bottom-bottom"
-     data-aos-duration="2000"
-                    
-                    style={{ width: '18rem' }} className='mx-auto h-100 border border-success  border-1 rounded-3 shadow p-3 mb-5 bg-body rounded'>
+                    <Card
+                        data-aos="fade-up"
+                        // data-aos-anchor-placement="bottom-bottom"
+                        data-aos-duration="2000"
+
+                        style={{ width: '18rem' }} className='mx-auto h-100 border border-success  border-1 rounded-3 shadow p-3 mb-5 bg-body rounded'>
                         <div className="mt-2 w-25 h-25 mx-auto mb-2">
                             <Card.Img variant="top" src={development} className='' />
 
@@ -56,11 +56,11 @@ const Services = () => {
                     </Card>
                 </div>
                 <div className="col-md-6 col-lg-4">
-                    <Card 
-                    data-aos="zoom-in-up"
-                    // data-aos-anchor-placement="bottom-bottom"
-     data-aos-duration="2000"
-                    style={{ width: '18rem' }} className='mx-auto mb-2 border border-success  border-1 rounded-3 shadow p-3 mb-5 bg-body rounded' >
+                    <Card
+                        data-aos="zoom-in-up"
+                        // data-aos-anchor-placement="bottom-bottom"
+                        data-aos-duration="2000"
+                        style={{ width: '18rem' }} className='mx-auto mb-2 border border-success  border-1 rounded-3 shadow p-3 mb-5 bg-body rounded' >
                         <div className="mt-2 w-25 h-25 mx-auto">
                             <Card.Img variant="top" src={code} className='' />
 
@@ -75,10 +75,10 @@ const Services = () => {
                 </div>
                 <div className="col-md-6 col-lg-4">
                     <Card
-                    data-aos="zoom-in-right"
-                    // data-aos-anchor-placement="bottom-bottom"
-                    data-aos-duration="1000"
-                    style={{ width: '18rem' }} className='mx-auto mb-2 border border-success  border-1 rounded-3 shadow p-3 mb-5 bg-body rounded'>
+                        data-aos="zoom-in-right"
+                        // data-aos-anchor-placement="bottom-bottom"
+                        data-aos-duration="1000"
+                        style={{ width: '18rem' }} className='mx-auto mb-2 border border-success  border-1 rounded-3 shadow p-3 mb-5 bg-body rounded'>
                         <div className="mt-2 w-25 h-25 mx-auto">
                             <Card.Img variant="top" src={responsibe} className='' />
 
@@ -93,11 +93,11 @@ const Services = () => {
                     </Card>
                 </div>
                 <div className="col-md-6 col-lg-4">
-                    <Card 
-                     data-aos="zoom-in-left"
-                    //  data-aos-anchor-placement="bottom-bottom"
-                     data-aos-duration="2000"
-                    style={{ width: '18rem' }} className='mx-auto mt-2 border border-success  border-1 rounded-3 shadow p-3 mb-5 bg-body rounded'>
+                    <Card
+                        data-aos="zoom-in-left"
+                        //  data-aos-anchor-placement="bottom-bottom"
+                        data-aos-duration="2000"
+                        style={{ width: '18rem' }} className='mx-auto mt-2 border border-success  border-1 rounded-3 shadow p-3 mb-5 bg-body rounded'>
                         <div className="mt-2 w-25 h-25 mx-auto">
                             <Card.Img variant="top" src={bug} className='' />
 
@@ -112,13 +112,13 @@ const Services = () => {
                     </Card>
                 </div>
                 <div className="col-md-6 col-lg-4">
-                    <Card 
-                    data-aos="zoom-out-right"
-                    // data-aos-anchor-placement="bottom-bottom"
-                     data-aos-duration="3000"
-                    style={{ width: '18rem' }} className='mx-auto mt-2 border border-success  border-1 rounded-3 shadow p-3 bg-body rounded h-100'>
-                        <div className="mt-2 w-50 h-50 mx-auto">
-                            <Card.Img variant="top" src={app} className='' />
+                    <Card
+                        data-aos="zoom-out-right"
+                        // data-aos-anchor-placement="bottom-bottom"
+                        data-aos-duration="3000"
+                        style={{ width: '18rem' }} className='mx-auto mt-2 border border-success  border-1 rounded-3 shadow p-3 bg-body rounded h-100'>
+                        <div className="mt-2 w-25 h-25 mx-auto">
+                            <Card.Img variant="top" src={app} className='  ' />
 
                         </div>
                         <Card.Body>

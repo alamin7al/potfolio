@@ -119,7 +119,7 @@ const Intro = () => {
             specializing in creating stylish, modern websites, web services and
             online stores.
           </p>
-          <div className='d-flex'>
+          <div className='d-flex '>
             <a href="https://web.facebook.com/profile.php?id=100033885724486" target='_blank'>
               <FontAwesomeIcon className='fs-1 ms-3 text-success' icon={faFacebook}>        </FontAwesomeIcon>
             </a>
@@ -136,6 +136,7 @@ const Intro = () => {
             <a href="https://www.linkedin.com/in/alaminal/" target='_blank'>
               <FontAwesomeIcon className='fs-1 ms-3  text-success' icon={faLinkedin}> </FontAwesomeIcon>          </a>
           </div>
+          <a className='mt-3' href="https://drive.google.com/uc?export=download&id=176xpYzFnByxHxRv90jBE8WQseWp54YJs" download="bottle"> <button className='btn btn-outline-success ms-5'>Download Resume</button> </a>
         </div>
 
       </div>
@@ -207,9 +208,7 @@ export default Intro;
 //             <a href="https://www.linkedin.com/in/alaminal/" target='_blank'>
 //               <FontAwesomeIcon className='fs-1 ms-3  text-success' icon={faLinkedin}> </FontAwesomeIcon>          </a>
 
-//           </div>
-//           <a href="https://drive.google.com/uc?export=download&id=176xpYzFnByxHxRv90jBE8WQseWp54YJs" download="bottle"> <button className='btn btn-outline-success ms-5'>Download Resume</button> </a>
-//         </div>
+
 
 
 

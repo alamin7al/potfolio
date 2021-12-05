@@ -8,8 +8,8 @@ import {
 } from "react-router-dom";
 const Navigato = () => {
   return (
-    <Navbar className=' text-white  ' expand="lg">
-      <Navbar.Brand href="#introhome" className='text-white' >My Portpolio</Navbar.Brand>
+    <Navbar className=' text-white  ' expand="lg" >
+      <Navbar.Brand href="#introhome" className='text-white' >Web Developer</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="text-center">

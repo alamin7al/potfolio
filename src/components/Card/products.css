@@ -32,6 +32,8 @@ a:hover { text-decoration: none }
     background-size: cover;
     overflow: hidden;
     position: relative;
+    transition: .5s;
+
     box-shadow: 0 2px 7px #221a1a;
 }
 .feature-card-deatails {
@@ -43,7 +45,7 @@ a:hover { text-decoration: none }
     background: rgba(0, 0, 0, 0.6);
     transition: 0.3s ease-in-out;
     font-size: 15px;
-    color: rgba(136, 136, 136, 0);
+    color: rgba(36, 209, 51, 0);
 }
 
 .feature-card-tilte {
@@ -87,6 +89,7 @@ a:hover { text-decoration: none }
     color: #1d365c;
     text-decoration: none;
     font-weight: 700;
+    transition: .5s;
 }
 
 .feature-card:hover .feature-card-deatails {

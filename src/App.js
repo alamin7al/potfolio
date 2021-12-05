@@ -9,15 +9,12 @@ import {
 } from "react-router-dom";
 import Introhome from './components/Intro/Introhome';
 // import Detailspage from './components/Card/Detailspage';
-import Navigato from './components/Intro/Navigato';
 import Skills from './components/Skills/Skills';
-import Detailspage from './components/Card/Detailspage';
 const App = () => {
   return (
     
     <div>
       <BrowserRouter>
-      <Navigato/>
 
         <Routes>
           <Route path="/" element={<Introhome />} />

@@ -67,7 +67,7 @@ const Product = () => {
     return (
 
         <>
-            <div className=" container   text-center my-5 ">
+            <div className=" container  ss text-center my-5 ">
                 <div className="row s  ">
                     <h2 className='my-2 text-success fs-1 text-uppercase'>My Projects</h2>
                     <hr className='project-hr text-success' />
@@ -78,11 +78,11 @@ const Product = () => {
                             <div className="col-md-6  col-lg-4   ">
 
 
-                                <div 
-                                 data-aos="zoom-in-up"
-                                 // data-aos-anchor-placement="bottom-bottom"
-                  data-aos-duration="2000"
-                                class="feature-card border border-success  border-1 rounded-3">
+                                <div
+                                    data-aos="zoom-in-up"
+                                    // data-aos-anchor-placement="bottom-bottom"
+                                    data-aos-duration="2000"
+                                    class="feature-card border border-success  border-1 rounded-3">
                                     <div class="feature-card-tilte ">
                                         {/* <h3>
 
@@ -118,11 +118,6 @@ const Product = () => {
                                         </div>
 
 
-
-                                        {/* <Link  to={`/details/${service?.id}`}> <button className='btn btn-primary'>Details</button>  </Link> */}
-
-
-
                                     </div>
                                 </div>
                             </div>
@@ -131,7 +126,7 @@ const Product = () => {
 
 
                 </div>
-            <div className='cl'> </div>
+                <div className='cl'> </div>
 
             </div>
         </>

@@ -6,10 +6,12 @@ import Services from '../Card/Services';
 import Contacts from '../Contact/Contacts';
 import Skills from '../Skills/Skills';
 import Intro from './Intro';
+import Navigato from './Navigato';
 
 const Introhome = () => {
     return (
         <div>
+            <Navigato></Navigato>
             <Intro/>
             <About/>
             <Skills/>

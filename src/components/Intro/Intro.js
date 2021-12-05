@@ -1,6 +1,8 @@
 import './Intro.css'
 import Me from "../../img/alamin2-removebg-preview.png";
 import Particles from "react-tsparticles"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faFacebook, faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons"
 
 const Intro = () => {
   const particlesInit = (main) => {
@@ -13,8 +15,8 @@ const Intro = () => {
     console.log(container);
   };
   return (
-    <div   
-  className="i">
+    <div
+      className="i">
 
       <Particles
         id="tsparticles"
@@ -98,19 +100,19 @@ const Intro = () => {
           detectRetina: true,
         }}
       />
-      <div    data-aos="flip-left"
-    // data-aos-easing="ease-out-cubic"
-    data-aos-duration="3000" className="i-left">
+      <div data-aos="flip-left"
+        // data-aos-easing="ease-out-cubic"
+        data-aos-duration="3000" className="i-left">
         <div className="i-left-wrapper">
           <h2 className="i-intro ">Hello, My name is</h2>
-          <h1 className="i-name text-success">Al Amin</h1>
+          <h1 className="i-name text-success ms-5">Al Amin</h1>
           <div className="i-title">
             <div className="i-title-wrapper">
-            {/* <div className="i-title-item"></div> */}
+              {/* <div className="i-title-item"></div> */}
 
               <div className="i-title-item">Web Developer</div>
               <div className="i-title-item">UI/UX Designer</div>
-            
+
             </div>
           </div>
           <p className="i-desc fw-normal">
@@ -118,7 +120,28 @@ const Intro = () => {
             specializing in creating stylish, modern websites, web services and
             online stores.
           </p>
+          <div className="my-3 ms-5 ">
+
+            <a href="https://web.facebook.com/profile.php?id=100033885724486" target='_blank'>
+              <FontAwesomeIcon className='fs-1 ms-3 text-success' icon={faFacebook}>        </FontAwesomeIcon>
+            </a>
+
+
+            <a href="https://github.com/alamin7al" target='_blank'>
+
+              <FontAwesomeIcon className='fs-1 ms-3  text-success' icon={faGithub}>    </FontAwesomeIcon>
+
+            </a>
+
+
+
+            <a href="https://www.linkedin.com/in/alaminal/" target='_blank'>
+              <FontAwesomeIcon className='fs-1 ms-3  text-success' icon={faLinkedin}> </FontAwesomeIcon>          </a>
+
+          </div>
+          <a href="https://drive.google.com/uc?export=download&id=176xpYzFnByxHxRv90jBE8WQseWp54YJs" download="bottle"> <button className='btn btn-outline-success ms-5'>Download Resume</button> </a>
         </div>
+
         <svg
           width="75"
           height="75"
@@ -128,6 +151,7 @@ const Intro = () => {
           className="i-scroll"
           xmlns="http://www.w3.org/2000/svg"
         >
+
           <g id="scroll">
             <path
               id="Vector"
@@ -175,10 +199,11 @@ const Intro = () => {
             </g>
           </g>
         </svg>
+
       </div>
-      <div    data-aos="flip-right"
-    // data-aos-easing="ease-out-cubic"
-    data-aos-duration="3000" className="i-right">
+      <div data-aos="flip-right"
+        // data-aos-easing="ease-out-cubic"
+        data-aos-duration="3000" className="i-right">
         <div className="i-bg"></div>
         <img src={Me} alt="" className="i-img" />
       </div>

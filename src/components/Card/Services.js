@@ -113,7 +113,7 @@ const Services = () => {
                 </div>
                 <div className="col-md-6 col-lg-4">
                     <Card
-                        data-aos="zoom-out-right"
+                        data-aos="zoom-in-right"
                         // data-aos-anchor-placement="bottom-bottom"
                         data-aos-duration="3000"
                         style={{ width: '18rem' }} className='mx-auto mt-2 border border-success  border-1 rounded-3 shadow p-3 bg-body rounded h-100'>

@@ -34,7 +34,7 @@ const Contacts = () => {
     };
 
     return (
-      <div className="c">
+      <div className="c  my-5">
       <div className="c-bg"></div>
       <div  data-aos="fade-up"
                         // data-aos-anchor-placement="bottom-bottom"
@@ -70,7 +70,7 @@ const Contacts = () => {
             <input  type="text" placeholder="Subject" name="user_subject" />
             <input  type="text" placeholder="Email" name="user_email" />
             <textarea  rows="5" placeholder="Message" name="message" />
-            <button>Submit</button>
+            <button className='btn btn-outline-success'>Submit</button>
             {done && "Thank you..."}
           </form>
         </div>

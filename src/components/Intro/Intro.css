@@ -1,7 +1,6 @@
 .i {
   display: flex;
-  height: 86vh;
-  margin-top: 10px;
+  height: 100vh;
 }
 
 .i-left {
@@ -18,7 +17,7 @@
 
 .i-left-wrapper {
   padding: 50px;
-  height: 100%;
+  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -40,7 +39,7 @@
 
 .i-title-wrapper {
   height: 100%;
-  animation: move 3s ease-in-out infinite alternate;
+  animation: move 10s ease-in-out infinite alternate;
 }
 
 @keyframes move {
@@ -66,11 +65,7 @@
   display: flex;
   align-items: center;
 }
-.i-desc{
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-size: 17px;
-  font-weight: 500;
-}
+
 .i-scroll {
   width: 30px;
   height: 30px;
@@ -114,5 +109,6 @@
   }
   
 }
-
-
+.i-desc{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}

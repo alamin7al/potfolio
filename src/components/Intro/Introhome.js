@@ -14,8 +14,9 @@ const Introhome = () => {
             <Navigato></Navigato>
             <Intro/>
             <About/>
-            <Skills/>
             <Product/>
+            <Skills/>
+
            <Services/>
             <Contacts/>
             {/* <Detailspage/> */}

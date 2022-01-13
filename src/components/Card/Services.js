@@ -22,7 +22,7 @@ const Services = () => {
                             data-aos="flip-left"
                             //  data-aos-easing="ease-out-cubic"
                             data-aos-duration="3000"
-                            style={{ width: '18rem' }} className='mx-auto mb-2 hoves border border-success  border-1 rounded-3 shadow p-3 mb-5 bg-body rounded'>
+                            style={{ width: '18rem' }} className='mx-auto mb-2 hoves border border-success  border-1 rounded-3 shadow p-3 mb-5 bg-body rounded cardstyle'>
                             <div className="mt-2 w-25 h-25 mx-auto">
                                 <Card.Img variant="top" src={webdesign} className='' />
 
@@ -42,7 +42,7 @@ const Services = () => {
                         // data-aos-anchor-placement="bottom-bottom"
                         data-aos-duration="2000"
 
-                        style={{ width: '18rem' }} className='mx-auto h-100 border border-success  border-1 rounded-3 shadow p-3 mb-5 bg-body rounded'>
+                        style={{ width: '18rem' }} className='mx-auto h-100 border border-success  border-1 rounded-3 shadow p-3 mb-5 bg-body rounded cardstyle'>
                         <div className="mt-2 w-25 h-25 mx-auto mb-2">
                             <Card.Img variant="top" src={development} className='' />
 
@@ -60,7 +60,7 @@ const Services = () => {
                         data-aos="zoom-in-up"
                         // data-aos-anchor-placement="bottom-bottom"
                         data-aos-duration="2000"
-                        style={{ width: '18rem' }} className='mx-auto mb-2 border border-success  border-1 rounded-3 shadow p-3 mb-5 bg-body rounded' >
+                        style={{ width: '18rem' }} className='mx-auto mb-2 border border-success  border-1 rounded-3 shadow p-3 mb-5 bg-body rounded cardstyle' >
                         <div className="mt-2 w-25 h-25 mx-auto">
                             <Card.Img variant="top" src={code} className='' />
 
@@ -78,7 +78,7 @@ const Services = () => {
                         data-aos="zoom-in-right"
                         // data-aos-anchor-placement="bottom-bottom"
                         data-aos-duration="1000"
-                        style={{ width: '18rem' }} className='mx-auto mb-2 border border-success  border-1 rounded-3 shadow p-3 mb-5 bg-body rounded'>
+                        style={{ width: '18rem' }} className='mx-auto mb-2 border border-success  border-1 rounded-3 shadow p-3 mb-5 bg-body rounded cardstylea'>
                         <div className="mt-2 w-25 h-25 mx-auto">
                             <Card.Img variant="top" src={responsibe} className='' />
 
@@ -97,7 +97,7 @@ const Services = () => {
                         data-aos="zoom-in-left"
                         //  data-aos-anchor-placement="bottom-bottom"
                         data-aos-duration="2000"
-                        style={{ width: '18rem' }} className='mx-auto mt-2 border border-success  border-1 rounded-3 shadow p-3 mb-5 bg-body rounded'>
+                        style={{ width: '18rem' }} className='mx-auto mt-2 border border-success  border-1 rounded-3 shadow p-3 mb-5 bg-body rounded cardstylea'>
                         <div className="mt-2 w-25 h-25 mx-auto">
                             <Card.Img variant="top" src={bug} className='' />
 
@@ -116,7 +116,7 @@ const Services = () => {
                         data-aos="zoom-in-right"
                         // data-aos-anchor-placement="bottom-bottom"
                         data-aos-duration="3000"
-                        style={{ width: '18rem' }} className='mx-auto mt-2 border border-success  border-1 rounded-3 shadow p-3 bg-body rounded h-100'>
+                        style={{ width: '18rem' }} className='mx-auto mt-2 border border-success  border-1 rounded-3 shadow p-3 bg-body rounded h-100 cardstylea'>
                         <div className="mt-2 w-25 h-25 mx-auto">
                             <Card.Img variant="top" src={app} className='  ' />
 

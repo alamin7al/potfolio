@@ -4,8 +4,14 @@ import imgone from '../../img/Screenshot_2021-11-28-22-43-47-45-removebg-preview
 import Award from '../../img/award.png'
 const About = () => {
   return (
-    <div className="a ">
-      <div className="a-left">
+    <div
+    id="about"
+    className="a ">
+      <div
+       data-aos="zoom-in-right"
+       // data-aos-anchor-placement="bottom-bottom"
+       data-aos-duration="1000"
+      className="a-left">
         <div className="a-card bg"></div>
         <div className="a-card">
           <img
@@ -15,10 +21,15 @@ const About = () => {
           />
         </div>
       </div>
-      <div className="a-right">
+      <div
+       data-aos="zoom-in-left"
+       // data-aos-anchor-placement="bottom-bottom"
+       data-aos-duration="2000"
+      
+      className="a-right">
         <h1 className="a-title fs-1 text-success">About Me</h1>
         <p className="a-sub">
-          I am Al Amin, a Junior MERN Stack Web developer able to build a Web presence from the ground up - from concept, navigation, layout and programming to UX and SEO. Experienced with a demonstrated history of working in the computer software industry. Skilled in Front End technologies such as Html5 , Css3 , JavaScript , React , BootStrap, Material UI, Sass, and Back End technologies such as Node.JS, Express JS and MongoDb. Learning a variety of scripting languages and multimedia tools is one of my strengths. I am also a hard worker and team player. I am looking for a challenging opportunity that will enable me to use my skills and abilities to achieve a challenging goal.
+          I am Al Amin, a  MERN Stack Web developer able to build a Web presence from the ground up - from concept, navigation, layout and programming to UX and SEO. Experienced with a demonstrated history of working in the computer software industry. Skilled in Front End technologies such as Html5 , Css3 , JavaScript , React , BootStrap, Material UI, Sass, and Back End technologies such as Node.JS, Express JS and MongoDb. Learning a variety of scripting languages and multimedia tools is one of my strengths. I am also a hard worker and team player. I am looking for a challenging opportunity that will enable me to use my skills and abilities to achieve a challenging goal.
         </p>
         {/* <div className="a-award">
           <img src={Award} alt="" className="a-award-img" />

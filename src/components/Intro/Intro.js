@@ -1,5 +1,5 @@
 import "./Intro.css";
-import Me from "../../img/alamin2-removebg-preview.png";
+import Me from "../../img/be-your-mern-stack-developer-mongodb-express-react-nodejs.jpg";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebook, faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons"
 
@@ -15,8 +15,10 @@ const Intro = () => {
     console.log(container);
   };
   return (
-    <div className="i">
-      <Particles
+    <div
+  id="introhome"
+    className="i">
+     <Particles
         id="tsparticles"
         init={particlesInit}
         loaded={particlesLoaded}
@@ -97,11 +99,15 @@ const Intro = () => {
           },
           detectRetina: true,
         }}
-      />
+      /> 
 
 
 
-      <div className="i-left">
+      <div
+        data-aos="zoom-in-up"
+        // data-aos-anchor-placement="bottom-bottom"
+        data-aos-duration="3000"
+      className="i-left">
         <div className="i-left-wrapper">
           <h2 className="i-intro">Hello, My name is</h2>
           <h1 className="i-name text-success">Al Amin</h1>
@@ -109,9 +115,8 @@ const Intro = () => {
             <div className="i-title-wrapper">
               <div className="i-title-item">Web Developer</div>
               <div className="i-title-item">UI/UX Designer</div>
-              <div className="i-title-item">Photographer</div>
-              <div className="i-title-item">Writer</div>
-              <div className="i-title-item">Content Creator</div>
+              <div className="i-title-item">Full Stack Developer</div>
+            
             </div>
           </div>
           <p className="i-desc ">
@@ -140,9 +145,16 @@ const Intro = () => {
         </div>
 
       </div>
-      <div className="i-right">
+      <div 
+       data-aos="fade-up"
+       // data-aos-anchor-placement="bottom-bottom"
+       data-aos-duration="2000"
+      className="i-right d-flex align-items-center justify-content-center ">
         <div className="i-bg"></div>
-        <img src={Me} alt="" className="i-img" />
+        <div className=" img-fluid img-thumbnail w-75 h-50 ">
+        <img src={Me} alt="" className="i-img img-fluid img-thumbnail w-750 h-50 " />
+
+        </div>
       </div>
     </div>
   );
@@ -150,78 +162,3 @@ const Intro = () => {
 
 export default Intro;
 
-
-// import './Intro.css'
-// import Me from "../../img/alamin2-removebg-preview.png";
-// import Particles from "react-tsparticles"
-
-// const Intro = () => {
-//   const particlesInit = (main) => {
-//     console.log(main);
-
-//     // you can initialize the tsParticles instance (main) here, adding custom shapes or presets
-//   };
-
-//   const particlesLoaded = (container) => {
-//     console.log(container);
-//   };
-//   return (
-//     <div
-//       className="i">
-
-
-//       <div data-aos="flip-left"
-//         // data-aos-easing="ease-out-cubic"
-//         data-aos-duration="3000" className="i-left">
-//         <div className="i-left-wrapper">
-//           <h2 className="i-intro ">Hello, My name is</h2>
-//           <h1 className="i-name text-success ms-5">Al Amin</h1>
-//           <div className="i-title">
-//             <div className="i-title-wrapper">
-//               {/* <div className="i-title-item"></div> */}
-
-//               <div className="i-title-item">Web Developer</div>
-//               <div className="i-title-item">UI/UX Designer</div>
-
-//             </div>
-//           </div>
-//           <p className="i-desc fw-normal">
-//             I design and develop services for customers of all sizes,
-//             specializing in creating stylish, modern websites, web services and
-//             online stores.
-//           </p>
-//           <div className="my-3 ms-5 ">
-
-//             <a href="https://web.facebook.com/profile.php?id=100033885724486" target='_blank'>
-//               <FontAwesomeIcon className='fs-1 ms-3 text-success' icon={faFacebook}>        </FontAwesomeIcon>
-//             </a>
-
-
-//             <a href="https://github.com/alamin7al" target='_blank'>
-
-//               <FontAwesomeIcon className='fs-1 ms-3  text-success' icon={faGithub}>    </FontAwesomeIcon>
-
-//             </a>
-
-
-
-//             <a href="https://www.linkedin.com/in/alaminal/" target='_blank'>
-//               <FontAwesomeIcon className='fs-1 ms-3  text-success' icon={faLinkedin}> </FontAwesomeIcon>          </a>
-
-
-
-
-
-//       </div>
-//       <div data-aos="flip-right"
-//         // data-aos-easing="ease-out-cubic"
-//         data-aos-duration="3000" className="i-right">
-//         <div className="i-bg"></div>
-//         <img src={Me} alt="" className="i-img" />
-//       </div>
-//       <div className='clear'></div>
-//     </div>
-//   );
-// };
-
-// export default Intro;

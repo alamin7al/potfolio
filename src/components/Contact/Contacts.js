@@ -34,7 +34,9 @@ const Contacts = () => {
     };
 
     return (
-      <div className="c  my-5">
+      <div
+      id='contact'
+      className="c  my-5">
       <div className="c-bg"></div>
       <div  data-aos="fade-up"
                         // data-aos-anchor-placement="bottom-bottom"
@@ -48,7 +50,7 @@ const Contacts = () => {
             </div>
             <div className="c-info-item">
               <img className="c-icon" src={Email} alt="" />
-             alaminn@gmail.com
+             alaminn852@gmail.com
             </div>
             <div className="c-info-item">
               <img className="c-icon" src={Address} alt="" />
